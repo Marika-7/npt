@@ -1,0 +1,16 @@
+// .btn-main {
+//   @include font(20px, bold, normal);
+//   transition: all $time_change_color;
+//   @include screen-1024 {
+//     @include font(18px, bold, 150%);
+//   }
+//   &:hover {
+//   }
+//   &:active {
+//     background-color: $red_dark;
+//   }
+//   &:disabled {
+//     background-color: $red;
+//     opacity: 0.5;
+//   }
+// }

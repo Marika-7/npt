@@ -1,0 +1,40 @@
+// ---------- scrollbar -----------
+
+// html:not(.touch-screen)::-webkit-scrollbar,
+// html:not(.touch-screen) *::-webkit-scrollbar {
+//   width: 9px;
+//   height: 8px;
+// }
+
+// html:not(.touch-screen)::-webkit-scrollbar-track,
+// html:not(.touch-screen) *::-webkit-scrollbar-track {
+//   background: $purple02;
+// }
+
+// html:not(.touch-screen)::-webkit-scrollbar-thumb,
+// html:not(.touch-screen) *::-webkit-scrollbar-thumb {
+//   background: $purple09;
+//   border: 1px solid $purple02;
+//   border-radius: 20px; 
+// }
+
+// body {
+//   scrollbar-width: thin;
+//   scrollbar-color: $purple09 $purple02;
+// }
+
+// ---------- body -----------
+
+// body {
+//   min-height: 100vh;
+//   background-color: $white;
+//   font-family: Arial, Helvetica, sans-serif;
+//   font-family: 'Montserrat', sans-serif;
+//   color: $black;
+//   @include font(20px, 500, 150%);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+// }
+
+// .main {}

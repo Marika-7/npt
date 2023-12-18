@@ -1,0 +1,76 @@
+-------------------- task --------------------
+
+  create project
+  prepear images
+  global style
+
+-------------------- project --------------------
+
+  docs (build)
+  src
+    fonts
+    images
+      icons
+    pug
+      components
+        footer.pug
+        header.pug
+        layout.pug
+      index.pug
+      test.pug
+    scripts
+      main.js
+      test.js
+    styles
+      base
+        _fonts.scss
+        _mixins.scss
+        _reset.scss
+        _variables.scss
+      components
+        _buttons.scss
+        _footer.scss
+        _form.scss
+        _header.scss
+        _test.scss
+        _text.scss
+      main.scss
+  .gitignore
+  gulpfile.js
+  package.json
+  README.md
+  task.txt
+
+-------------------- git --------------------
+
+  git init
+  git add .
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Marika-7/npt.git
+  git push -u origin main
+
+  git commit -m "first commit"
+  git commit -m ""
+
+-------------------- npm --------------------
+
+      npm install -g gulp-cli
+  npm init
+
+  npm i -D gulp
+  npm i -D gulp-pug
+  npm i -D sass gulp-sass gulp-autoprefixer
+  npm i -D gulp-babel @babel/core @babel/preset-env
+  npm i -D gulp-concat gulp-uglify
+  npm i -D browser-sync gulp-clean
+  npm i -D gulp-svg-sprite
+  npm i -D gulp-imagemin@7.1.0
+  npm i -D gulp-newer gulp-webp@4.0.1
+  npm i -D gulp-fonter gulp-ttf2woff2
+
+
+  gulp
+  gulp sprite
+      gulp images
+      gulp fonts

@@ -1,0 +1,33 @@
+// .input {
+//   caret-color: $purple04;
+// @include font(16px, 500, 150%);
+//   &:focus {
+//     border-color: $purple04;
+//     outline: none;
+//   }
+//   &_success {
+//     border-color: $purple08;
+//   }
+//   &_error {
+//     border-color: $red-error;
+//   }
+// }
+
+// ::placeholder {
+//   color: $gray-light;
+// }
+
+// .label {
+//   width: 100%;
+//   min-height: 74px;
+//   @include font(14px, normal, 150%);
+//   &:has(:disabled) {
+//     opacity: 0.5;
+//   }
+//   .text-error {
+//     display: none;
+//   }
+//   &:has(.input_error)>.text-error {
+//     display: inline;
+//   }
+// }
